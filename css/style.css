@@ -1,0 +1,135 @@
+nav{
+    position: sticky;
+    top: 0px;
+}
+h2{
+    text-align: center;
+    padding: 80px;
+    /*Alterar a fonte*/
+}
+#menu_bar{
+    width: 100vw;
+    height: 70px;
+    background-color: #000000;
+    margin: 0;
+}
+#logo_cam{
+    width: 65px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+#logo_cam_2{
+width: 25px;
+}
+#galo_na_veia{
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: -45px;
+    left: 130px;
+}
+#arena{
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: -45px;
+    left: 170px;
+}
+#itens_list_menu{
+    display: flex;
+    gap: 45px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    list-style: none;
+    color: #fff;
+    margin: 0 100px 0 0;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#000;
+    width: 100vw;
+    padding-bottom: 500px;
+    background: linear-gradient(180deg, #fff, #000);
+}
+#banner_cam{
+    position: absolute;
+    top: 150px;
+    width: 230px;
+}
+#descricao_campeao{
+    color: #fff;
+    position: relative;
+    top: 450px;
+}
+#atletas{
+    display: grid;
+    justify-items: center;
+    gap: 90px;
+    row-gap: 45px;
+    padding-bottom: 150px ;
+}
+#defensores, #goleiro, #meias, #atacante, #comissao, #volantes{
+    display: flex;
+}
+#goleiro img, #defensores img, #meias img, #atacante img, #comissao img, #volantes img{
+    width: 200px;
+    padding: 0 50px;
+    background: rgb(240,240,240);
+}
+section{
+    padding: 0 15px;
+    text-align: center;
+}
+#atletas_text{
+    font-size: 25px;
+}
+#noticias img{
+    height: 350px;
+}
+table{
+    display: grid;
+    justify-content: center;
+} 
+footer{
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 15px;
+}
+table{
+    table-layout: auto;
+    text-align: center;
+}
+.head_table, .body_table_1, .body_table_2{
+padding: 10px;
+}
+.head_table{
+    background-color: #bbb;
+}
+.body_table_1{
+    background-color: #eee;
+}
+.escudo_time{
+    width: 5px;
+}
+.img_loja_1{
+    width: 300px;
+    background-color: rgb(245,243,239);
+}
+.img_loja_2{
+    width: 148px;
+    background-color: rgb(245,243,239);
+}
+#loja{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+}
