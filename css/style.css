@@ -1,11 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.itens_menu{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #eee;
+    text-decoration: none;
+    font-size: 18px;
+}
+.itens_menu:hover{
+    font-size: 20px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #ff0;
+}
+.preco{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+.cifrao{
+    font-family: 'Alkalami', serif;
+    font-weight: lighter;
+}
+.atletas_text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 3px;
+}
+.funcao{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.descricao_loja{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.atletas_number{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #ff0;  
+    font-size: 30px;
+    background-color: #000;
+    padding: 3px;
+    border-radius: 2px;
+}
+.atletas_number:hover{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #ff0;  
+    font-size: 35px;
+    background-color: #000;
+    padding: 3px;
+    border-radius: 2px;
+}
+.titulos_3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 35px;
+}
+.titulos_2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 80px;
+}
+#descricao_campeao{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 450px;
+    color: #fff;
+}
 nav{
     position: sticky;
     top: 0px;
 }
-h2{
-    text-align: center;
-    padding: 80px;
-    /*Alterar a fonte*/
+main{
+    display: grid;
 }
 #menu_bar{
     width: 100vw;
@@ -54,17 +132,12 @@ width: 25px;
     background-color:#000;
     width: 100vw;
     padding-bottom: 500px;
-    background: linear-gradient(180deg, #fff, #000);
+    background: #000;
 }
 #banner_cam{
     position: absolute;
-    top: 150px;
-    width: 230px;
-}
-#descricao_campeao{
-    color: #fff;
-    position: relative;
-    top: 450px;
+    top: 40px;
+    width: 300px;
 }
 #atletas{
     display: grid;
@@ -81,6 +154,9 @@ width: 25px;
     padding: 0 50px;
     background: rgb(240,240,240);
 }
+#goleiro img:hover, #defensores img:hover, #meias img:hover, #atacante img:hover, #comissao img:hover, #volantes img:hover{
+    width: 230px;
+}
 section{
     padding: 0 15px;
     text-align: center;
@@ -95,20 +171,11 @@ table{
     display: grid;
     justify-content: center;
 } 
-footer{
-    display: grid;
-    justify-items: center;
-    gap: 10px;
-    background-color: #000;
-    color: #fff;
-    margin-top: 15px;
-}
-table{
-    table-layout: auto;
-    text-align: center;
-}
 .head_table, .body_table_1, .body_table_2{
-padding: 10px;
+    padding: 10px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 16px;
+    
 }
 .head_table{
     background-color: #bbb;
@@ -122,14 +189,128 @@ padding: 10px;
 .img_loja_1{
     width: 300px;
     background-color: rgb(245,243,239);
+    position: static;
+}
+.img_loja_1:hover{
+    width: 320px;
 }
 .img_loja_2{
     width: 148px;
     background-color: rgb(245,243,239);
+}
+.img_loja_2:hover{
+    width: 180px;
 }
 #loja{
     display: flex;
     gap: 15px;
     justify-content: center;
     padding: 25px;
+}
+.div_preco{
+    text-align: center;
+}
+#div_noticias{
+    display: flex;
+    justify-content: center;
+}
+.noticias_galo{
+    text-align: center;
+    padding: 50px;
+}
+.img_noticias{
+    width: 500px;
+    height: 330px;
+}
+.img_noticias:hover{
+    width: 530px;
+    height: 360px;
+}
+.titulo_noticia{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    font-style: none;
+}
+.corpo_noticias{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.botao_comprar_ingresso, .botao_comprar{
+    border: 1px solid #ff0;
+    background-color: #000;
+    color: #ff0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 10px;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+.botao_comprar_ingresso:hover, .botao_comprar:hover{
+    border: 1px solid #ff0;
+    background-color: #000;
+    color: #ff0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+    width: 110px;
+    height: 30px;
+}
+#div_pesquisa{
+    display: grid;
+    justify-content: center;
+}
+#pesquisa_loja{
+    text-align: center;
+    width: 250px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    font-size: 15px;
+    justify-self: center;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+#titulo_div_loja_pesquisar{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 35px;
+    margin: 15px;
+}
+#botao_pesquisar{
+    border: 1px solid #ff0;
+    background-color: #000;
+    color: #ff0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 10px;
+    border-radius: 4px;
+    width: 180px;
+    height: 25px;
+    justify-self: center; 
+    margin: 10px;   
+}
+#botao_pesquisar:hover{
+    border: 1px solid #ff0;
+    background-color: #000;
+    color: #ff0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+    width: 190px;
+    height: 30px;
+    justify-self: center;    
+}
+footer{
+    display: flex;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+.redes_sociais{
+    height: 15px;
+}
+#nome_do_clube{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px; 
 }
